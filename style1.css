@@ -1,0 +1,58 @@
+.navbar
+{
+    width: 100wh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+   list-style: none; 
+    background-color: #444141;
+    border-radius: 6px;
+       
+}
+.list-item:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+h1
+{
+    text-align: center;
+    margin-top:100px;
+}
+.Box
+{
+    width: 100wh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.boxes
+{
+    width: 130px;
+    height: 130px;
+    border:1px black solid;
+}
+.box1
+{
+    background-color: orange;
+}
+.box2
+{
+    background-color: blueviolet;
+}
+.box3
+{
+    background-color: pink;
+}
+.box4
+{
+    background-color: green;
+}
+h2
+{
+    text-align: center;
+}
+.boxes:hover
+{
+    cursor: pointer;
+}
